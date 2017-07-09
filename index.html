@@ -1,9 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Melonz blog</title>
-</head>
-<body>
-  <h1>Soon®</h1>
-</body>
-</html>
+---
+title: Home
+layout: default
+---
+
+<h1> test </h1>
+<h3>posts</h3>
+
+<ul>
+{% for post in site.posts limit:10 %}
+	<li><a href="{{ post.url}}">{{ post.date }} {{ post.category }} - {{ post.title }}</a></li>
+{% endfor %}
+</ul>
