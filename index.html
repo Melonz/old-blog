@@ -16,6 +16,7 @@ description: site.description
 			<div class="card-block">
 			  <h4 class="card-title">{{ post.title }}</h4>
 			  <p class="card-text">{{ post.desc }}</p>
+			  <a href="{{ post.url }}" class="btn btn-primary">Go to post</a>
 			</div>
 			<div class="card-footer">
 			  <small class="text-muted">Posted on {{ post.date | date: "%-dth %B %Y" }} -- Posted in {{ post.category }} by <a href="{{ post.author-link }}">{{ post.author }}</a></small>
