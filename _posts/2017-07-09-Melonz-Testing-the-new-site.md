@@ -3,7 +3,7 @@ id: testing_new_site
 title: Testing the new site
 layout: post
 category: Melonz
-image: trmlikedemfatones.png
+image: testing_new_site/trmlikedemfatones.png
 author: Melonz
 author-link: https://melonz.nl
 ---
