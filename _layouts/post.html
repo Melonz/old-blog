@@ -5,10 +5,10 @@
     {% include navbar-post.html %}
     <div id="main-stuff" class="post-main">
         <div class="card card-inverse"> <!-- Sets the card at the top -->
-            <img class="card-img card-img-post" style="background-image: url('/img/posts/{{ page.image }}'); background-size: cover;" height="112">
+            <img class="card-img card-img-post" style="background-image: url('/img/posts/{{ page.image }}'); background-size: cover;" height="125">
             <div class="card-img-overlay card-img-overlay-post">
                 <h4 class="card-title card-title-post product-sans">{{ page.title }}</h4>
-                <p class="card-text card-text-light">{{ page.desc }}</p>
+                <p class="card-text card-text-light">{{ page.desc }}<br><span class="card-text">Posted in {{ page.category }} by <a href="{{ page.author-link }}">{{ page.author }}</a></span></p>
             </div>
         </div>
         <br>
