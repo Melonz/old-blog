@@ -1,13 +1,28 @@
 ---
 title: Home
 layout: default
+keywords: home, homepage, melonz, melonz blog
+description: site.description
 ---
 
-<h1> test </h1>
-<h3>posts</h3>
-
-<ul>
-{% for post in site.posts limit:10 %}
-	<li><a href="{{ post.url}}">{{ post.date }} {{ post.category }} - {{ post.title }}</a></li>
-{% endfor %}
-</ul>
+<div id="main-stuff">
+	<h3>Latest posts</h3><br>
+		<div class="row">
+		{% for post in site.posts limit:3 %}
+		  {% assign post_img = '' | append: '/img/posts/' | append: post.image %}  
+		<div class="col-4 homepage-card" style="padding-right: 10px;">
+		  <div class="card">
+			<img class="card-img-top" src="{{ post_img }}" width="386" height="386" alt="This post has no image.">
+			<div class="card-block">
+			  <h4 class="card-title">{{ post.title }}</h4>
+			  <p class="card-text">{{ post.desc }}</p>
+			</div>
+			<div class="card-footer">
+			  <small class="text-muted">Posted on {{ post.date | date: "%-dth %B %Y" }} -- Posted in {{ post.category }} by <a href="{{ post.author-link }}">{{ post.author }}</a></small>
+			</div>
+		</div>
+		  </div>
+		{% endfor %}
+		</div>
+	<br>
+</div>

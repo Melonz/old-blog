@@ -2,7 +2,19 @@
 <html>
 {% include head.html %}
 <body>
-{{ content }}
-<!-- extra post stuff if you want that -->
+    {% include navbar-post.html %}
+    <div id="main-stuff" class="post-main">
+        <div class="card card-inverse"> <!-- Sets the card at the top -->
+            <img class="card-img card-img-post" style="background-image: url('/img/posts/{{ page.image }}'); background-size: cover;" height="112">
+            <div class="card-img-overlay card-img-overlay-post">
+                <h4 class="card-title card-title-post product-sans">{{ page.title }}</h4>
+                <p class="card-text card-text-light">{{ page.desc }}</p>
+            </div>
+        </div>
+        <br>
+        <div id="post-content">
+            {{ content }}
+        </div>
+    </div>
 </body>
 </html>
