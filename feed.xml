@@ -14,7 +14,7 @@ layout: null
           <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
           <link>{{ post.url | prepend: site.url }}</link>
 		  <% if post.image %>
-			<image>{{ post.image | prepend: "/img/posts/site.id/" }}</image>
+			<image>{{ post.image | prepend: "/img/posts/post.id/" }}</image>
 		  <% endif %>
           <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
         </item>
