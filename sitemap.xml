@@ -8,9 +8,9 @@ xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" >
 		  {% if post.image %}
 			{% assign post_img = 'https://blog.melonz.nl' | append: '/img/posts/' | append: post.image %}
 			<image:image>
-         <image:loc>{{ post_img }}/image:loc>
-         <image:caption>{{ post.desc }}</image:caption>
-      </image:image>
+			 <image:loc>{{ post_img }}</image:loc>
+			 <image:caption>{{ post.desc }}</image:caption>
+		      	</image:image>
 		  {% endif %}
         </url>
       {% endunless %}
