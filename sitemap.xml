@@ -7,7 +7,7 @@ xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" >
   {% for post in site.posts %}
       {% unless post.draft %}
         <url>
-          <loc>https://blog.melonz.nl/{{ post.url }}</loc>
+          <loc>https://blog.melonz.nl{{ post.url }}</loc>
 		  {% if post.image %}
 			{% assign post_img = 'https://blog.melonz.nl' | append: '/img/posts/' | append: post.image %}
 			<image:image>
