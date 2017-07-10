@@ -3,6 +3,7 @@ title: We've got a fancy new blog!
 layout: post
 category: Melonz
 image: fancy_new_blog/site.png
+keywords: fancy new blog, meme
 id: fancy_new_blog
 author: TheRandomMelon
 author-link: https://twitter.com/RandomMelonYT
