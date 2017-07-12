@@ -6,18 +6,18 @@ layout: null
   <channel>
     <title>Posts from {{ site.title }}</title>
     <description>Read the latest stuff from the {{ site.title }}!</description>
-    <link>https://blog.melonz.nl</link>
+    <link>{{ site.urlnp }}</link>
     {% for post in site.posts %}
       {% unless post.draft %}
         <item>
           <title>{{ post.title | xml_escape }}</title>
           <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
-          <link>{{ post.url | prepend: site.url }}</link>
+          <link>{{ post.url | prepend: site.urlnp }}</link>
 		  {% if post.image %}
 			{% assign post_img = '' | append: '/img/posts/' | append: post.image %}
 			<image>{{ post_img }}</image>
 		  {% endif %}
-          <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
+          <guid isPermaLink="true">{{ post.url | prepend: site.urlnp }}</guid>
         </item>
       {% endunless %}
     {% endfor %}
