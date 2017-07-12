@@ -6,7 +6,7 @@ layout: null
   <channel>
     <title>Posts from {{ site.title }}</title>
     <description>Read the latest stuff from the {{ site.title }}!</description>
-    <link>{{ site.url }}</link>
+    <link>https://blog.melonz.nl</link>
     {% for post in site.posts %}
       {% unless post.draft %}
         <item>
