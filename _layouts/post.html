@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 {% include head.html %}
-<body>
+<body class="d-flex flex-column">
     {% include navbar-post.html %}
-    <div id="main-stuff" class="post-main">
+    <div id="main-stuff" class="post-main flex-grow">
         <div class="card card-inverse"> <!-- Sets the card at the top -->
             <img class="card-img card-img-post" style="background-image: url('/img/posts/{{ page.image }}'); background-size: cover;" height="125">
             <div class="card-img-overlay card-img-overlay-post">
