@@ -69,6 +69,14 @@ hr {
 	/* Just do default stuff if not mobile */
 }
 
+.allposts-li {
+ cursor: pointer;
+}
+
+.allposts-pad {
+	padding-bottom: 10px;
+}
+
 @media screen and (max-width: 600px) {
     .card-img-overlay-post {
 		font-size: 14px;

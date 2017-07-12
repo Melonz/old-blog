@@ -15,7 +15,11 @@ desc: The official blog of Melonz. We post about ourselves (because we have an e
 		  <div class="card">
 			<img class="card-img-top" src="{{ post_img }}" width="386" height="386" alt="This post has no image.">
 			<div class="card-block">
+			 {% if post.badge-text %}
+			  <h4 class="card-title"><span class="badge badge-danger">{{ post.badge-text }}</span> {{ post.title }}</h4>
+			 {% else %}
 			  <h4 class="card-title">{{ post.title }}</h4>
+			 {% endif %}
 			  <p class="card-text">{{ post.desc }}</p>
 			  <a href="{{ post.url }}" class="btn btn-primary">Go to post</a>
 			</div>
