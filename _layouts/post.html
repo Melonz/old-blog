@@ -18,8 +18,23 @@
         <br>
         <div id="post-content">
             {{ content }}
-        </div>
+        </div>	
+		<div class="card">
+		  <div class="card-header">
+			Enjoyed the post?
+		  </div>
+		  <div class="card-block">
+			<h4 class="card-title">Share it around!</h4>
+			<p class="card-text">Click the fancy social links below to share.</p>
+			<ul class="nav">
+				<li class="nav-item"><a target="_blank" href="https://twitter.com/intent/tweet?text={{ page.title }} - {{ page.url | prepend: site.url }} via @MelonzInc" class="nav-link" data-toggle="tooltip" data-placement="top" title="Tweet it on Twitter"><i class="fa fa-twitter fa-lg"></i></a></li>
+				<li class="nav-item"><a target="_blank" href="https://www.reddit.com/submit?url={{ page.url | prepend: site.url }}&title={{ page.title }}" class="nav-link" data-toggle="tooltip" data-placement="top" title="Post it on Reddit"><i class="fa fa-reddit-alien fa-lg"></i></a></li>
+				<li class="nav-item"><a target="_blank" href="mailto:?subject={{ page.title }} via {{ site.title }}&body={{ page.desc }} Read more at {{ page.url | prepend: site.url }}" class="nav-link" data-toggle="tooltip" data-placement="top" title="Mail it to someone's inbox"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+			</ul>
+		  </div>
+		</div>
     </div>
+	<br>
 	<br>
 	{% include foot.html %}
 </body>
