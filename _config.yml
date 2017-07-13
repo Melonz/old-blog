@@ -19,6 +19,10 @@ github: https://github.com/Melonz/melonz.github.io
 permalink: /:year/:title.html
 
 markdown: kramdown
+kramdown:
+  input: GFM
+  
+highlighter: rouge
 gems:
   - jekyll-feed
 exclude:
