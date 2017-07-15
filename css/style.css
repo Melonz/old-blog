@@ -7,19 +7,19 @@
 
 @font-face {
     font-family: "Product Sans", Arial, sans-serif;
-    src: url("font/product-sans-bold.ttf");
+    src: url("font/product-sans-bold.woff2");
     font-weight: bold;
 }
 
 @font-face {
     font-family: "Product Sans", Arial, sans-serif;
-    src: url("font/product-sans-italic.ttf");
+    src: url("font/product-sans-italic.woff2");
     font-style: italic;
 }
 
 @font-face {
     font-family: "Product Sans", Arial, sans-serif;
-    src: url("font/product-sans-bolditalic.ttf");
+    src: url("font/product-sans-bolditalic.woff2");
     font-weight: bold;
 	font-style: italic;
 }
