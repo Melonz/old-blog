@@ -5,7 +5,7 @@ rvm:
 # before_script:
  # - chmod +x ./script/cibuild -- We don't have a cibuild script atm since we dont need it
 
-install: gem install github-pages html-proofer bundler sass
+install: gem install github-pages html-proofer bundler sass:3.4.25
 script: jekyll build && htmlproofer ./_site
 
 branches:
