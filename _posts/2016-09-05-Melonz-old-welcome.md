@@ -4,6 +4,7 @@ layout: post
 category: Melonz
 badge-text: ANCIENT
 image: old_welcome/1.png
+comments: true
 keywords: old, welcome, first, post
 id: old_welcome
 author: TheRandomMelon

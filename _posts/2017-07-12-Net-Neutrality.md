@@ -4,6 +4,7 @@ layout: post
 category: Specials
 image: net_neutrality/square.png
 image-banner: net_neutrality/banner.jpg
+comments: true
 keywords: july 12, net neutrality, post, melonz, special, fcc
 id: net_neutrality
 badge-text: SPECIAL

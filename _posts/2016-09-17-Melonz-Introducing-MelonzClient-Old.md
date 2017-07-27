@@ -7,6 +7,7 @@ image: intro_melonzclient/login-banner.png
 keywords: melonzclient, old, tumblr, post
 id: intro_melonzclient
 author: TheRandomMelon
+comments: true
 author-link: https://twitter.com/RandomMelonYT
 desc: See what MelonzClient was originally planned to look like.
 ---

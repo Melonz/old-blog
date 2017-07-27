@@ -12,7 +12,8 @@
 			{% endif %}
             <div class="card-img-overlay card-img-overlay-post">
                 <h4 class="card-title card-title-post product-sans">{{ page.title }}</h4>
-                <p class="card-text card-text-light">{{ page.desc }}<br><span class="card-text">Posted in {{ page.category }} by <a href="{{ page.author-link }}">{{ page.author }}</a></span></p>
+                <p class="card-text card-text-light">{{ page.desc }}<br><span class="card-text">Posted in {{ page.category }} by <a href="{{ page.author-link }}">{{ page.author }}</a> || 
+		{% if page.comments %}<a href="#disqus_thread">Add a comment</a>{% endif %}</span></p>
             </div>
         </div>
         <br>
@@ -34,6 +35,8 @@
 			</ul>
 		  </div>
 		</div>
+		<br>
+		{% include comments.html %}
     </div>
 	<br>
 	<br>
