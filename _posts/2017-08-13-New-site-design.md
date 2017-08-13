@@ -52,7 +52,7 @@ It does! About time, right? You can change the following:
 - Your profile picture and cover banner
 
 # Conclusion
-Thanks for reading! Also, on our blog's [https://github.com/Melonz/melonz.github.com](GitHub) page, we now have 100 commits! Yes, we've changed things with the site **100 times**. Thanks to all of you for being on the Road to 100!
+Thanks for reading! Also, on our blog's [https://github.com/Melonz/melonz.github.io](GitHub) page, we now have 100 commits! Yes, we've changed things with the site **100 times**. Thanks to all of you for being on the Road to 100!
 
 ![100 commits!](/img/posts/new_site_design/100commits.png)
 
