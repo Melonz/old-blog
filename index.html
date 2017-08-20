@@ -10,7 +10,7 @@ desc: The official blog of Melonz. We post about ourselves (because we have an e
 	<h3>Latest posts</h3>
 		<div class="row">
 		{% for post in site.posts limit:3 %}
-		  {% assign post_img = '' | append: '/img/posts/' | append: post.image %}  
+		  {% assign post_img = '' | append: '/img/posts/' | append: post.image %}
 		<div class="col-4 homepage-card" style="padding-right: 10px;">
 		  <div class="card">
 			<img class="card-img-top" src="{{ post_img }}" width="386" height="386" alt="This post has no image.">

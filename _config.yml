@@ -14,18 +14,19 @@ description: The official blog of Melonz. We post about ourselves (because we ha
 baseurl: ""
 url: https://blog.melonz.nl
 urlnp: blog.melonz.nl
-twitter: https://twitter.com/melonzinc
-github: https://github.com/Melonz/melonz.github.io
+twitter: https://twitter.com/melonzdev
+twitterhandle: @MelonzDev
+facebook: https://www.facebook.com/melonzinc
+github: https://github.com/Melonz
 permalink: /:year/:title.html
 
 markdown: kramdown
 kramdown:
   input: GFM
-  
+
 highlighter: rouge
 gems:
   - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
-  

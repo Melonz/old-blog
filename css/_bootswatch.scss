@@ -1,12 +1,8 @@
 // Darkly 4.0.0
 // Bootswatch
-
-
 $web-font-path: "https://fonts.googleapis.com/css?family=Lato:400,700,400italic" !default;
 @import url($web-font-path);
-
 // Navbar ======================================================================
-
 .bg-inverse {
   background-color: $brand-success !important;
 
@@ -17,7 +13,6 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Lato:400,700,400italic"
 }
 
 .navbar {
-
   &-brand {
     margin-right: 2rem;
   }
@@ -30,26 +25,19 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Lato:400,700,400italic"
     padding-top: 0.5rem;
   }
 }
-
 // Buttons =====================================================================
-
-
 // Typography ==================================================================
-
 .blockquote {
   &-footer {
     color: $gray-lighter;
   }
 }
-
-
 // Tables ======================================================================
-
 .table {
-  &-success,
+  &-danger,
   &-info,
-  &-warning,
-  &-danger {
+  &-success,
+  &-warning {
     color: #fff;
   }
 }
@@ -57,27 +45,20 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Lato:400,700,400italic"
 .thead-inverse th {
   background-color: $brand-primary;
 }
-
-
 // Forms =======================================================================
-
 .input-group-addon {
   color: #fff;
 }
-
-
 // Navs ========================================================================
-
-.nav-tabs,
-.nav-pills {
-
+.nav-pills,
+.nav-tabs {
+  .nav-item.open .nav-link,
+  .nav-item.open .nav-link:focus,
+  .nav-item.open .nav-link:hover,
   .nav-link,
   .nav-link.active,
   .nav-link.active:focus,
-  .nav-link.active:hover, 
-  .nav-item.open .nav-link,
-  .nav-item.open .nav-link:focus,
-  .nav-item.open .nav-link:hover {
+  .nav-link.active:hover {
     color: #fff;
   }
 }
@@ -91,30 +72,25 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Lato:400,700,400italic"
     text-decoration: none;
   }
 }
-
 // Indicators ==================================================================
-
 .close {
   color: #fff;
   text-decoration: none;
   opacity: 0.4;
 
-  &:hover,
-  &:focus {
+  &:focus,
+  &:hover {
     opacity: 1;
   }
 }
 
 .alert {
-
   .alert-link {
     color: #fff;
     text-decoration: underline;
   }
 }
-
 // Progress bars ===============================================================
-
 .progress {
   height: 10px;
 
@@ -123,15 +99,12 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Lato:400,700,400italic"
     line-height: 10px;
   }
 }
-
 // Containers ==================================================================
-
-
 .list-group-item-action {
   color: #fff;
 
-  &:hover,
-  &:focus {
+  &:focus,
+  &:hover {
     background-color: $gray-light;
     color: #fff;
   }
