@@ -15,7 +15,7 @@ baseurl: ""
 url: https://blog.melonz.nl
 urlnp: blog.melonz.nl
 twitter: https://twitter.com/melonzdev
-twitterhandle: @MelonzDev
+twitterhandle: '@MelonzDev'
 facebook: https://www.facebook.com/melonzinc
 github: https://github.com/Melonz
 permalink: /:year/:title.html
