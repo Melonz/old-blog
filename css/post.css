@@ -1,7 +1,24 @@
 img {
     border: 2px solid whitesmoke;
+	border-radius: 10px;
+	width: 100%;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
 }
 
 #melonz-logo {
     border: none;
+	width: initial;
+}
+
+span.image-caption {
+    display: inline-block;
+	background: whitesmoke;
+	color: black;
+	border-radius: 10px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	width: 100%;
+    text-align: center;
+    margin-bottom: 2em;
 }
