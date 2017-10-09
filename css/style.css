@@ -713,3 +713,8 @@ pre {
     flex: 0 0 95% !important;
   }
 }
+
+.circle {
+	border-radius: 50%;
+	box-shadow: 0px 0px 5px #111;
+}
