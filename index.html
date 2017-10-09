@@ -13,7 +13,7 @@ desc: The official blog of Melonz. We post about ourselves (because we have an e
 		  {% assign post_img = '' | append: '/img/posts/' | append: post.image %}
 		<div class="col-4 homepage-card" style="padding-right: 10px;">
 		  <div class="card">
-			<img class="card-img-top" src="{{ post_img }}" width="386" height="386" alt="This post has no image.">
+			<img class="card-img-top" src="{{ post_img }}" alt="This post has no image.">
 			<div class="card-block">
 			 {% if post.badge-text %}
 			  <h4 class="card-title"><span class="badge badge-danger">{{ post.badge-text }}</span> {{ post.title }}</h4>
