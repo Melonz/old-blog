@@ -1,39 +1,10 @@
-/* Product Sans font declaration */
-
-@font-face {
-  font-family: 'Product Sans', Arial, sans-serif;
-  src: url("/font/product-sans.woff");
+body {
+    font-family: 'Open Sans', sans-serif;
 }
 
-@font-face {
-  font-family: "Product Sans", Arial, sans-serif;
-  src: url("font/product-sans-bold.woff2");
-  font-weight: bold;
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
 }
-
-@font-face {
-  font-family: "Product Sans", Arial, sans-serif;
-  src: url("font/product-sans-italic.woff2");
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Product Sans", Arial, sans-serif;
-  src: url("font/product-sans-bolditalic.woff2");
-  font-weight: bold;
-  font-style: italic;
-}
-
-img {
-  max-width: 100%;
-}
-
-.product-sans {
-  font-family: 'Product Sans';
-}
-
-
-/* Actual things now xoxo */
 
 #main-stuff {
   padding-top: 85px;
