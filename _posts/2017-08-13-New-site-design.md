@@ -20,15 +20,14 @@ We have a main website at <a href="https://melonz.nl">melonz.nl</a>. It's where 
 # What did the old one look like?
 Well, let's hit up the Wayback Machine and see what we get.
 
-![Old website](/img/posts/new_site_design/oldweb.png)
+{% include image.html path="/img/posts/new_site_design/oldweb.png" caption="Uhm, yeah... terrible." %}
 
-Uhm, yeah... terrible.
 This archive is from June 25, 2017. The "latest news" segment still says "We weren't affected by the CloudBleed bug that was fixed _**last night**_. Yup. Lovely.
 
 # Wow. Okay, what's the new one like?
 This.
 
-![Newer and better website](/img/posts/new_site_design/newweb.png)
+{% include image.html path="/img/posts/new_site_design/newweb.png" caption="Newer and better website" %}
 
 Miles better, right?
 
@@ -38,7 +37,7 @@ Secondly, it doesn't use the deprecated ``<center>`` tag in HTML. If you're not 
 
 And finally, **it actually displays useful information**!
 
-![What we're developing](/img/posts/new_site_design/developing.png)
+{% include image.html path="/img/posts/new_site_design/developing.png" caption="What we're developing" %}
 
 # Cool!
 Hell yeah, it's cool.
@@ -54,6 +53,6 @@ It does! About time, right? You can change the following:
 # Conclusion
 Thanks for reading! Also, on our blog's <a href="https://github.com/Melonz/melonz.github.io">GitHub</a> page, we now have 100 commits! Yes, we've changed things with the site **100 times**. Thanks to all of you for being on the Road to 100!
 
-![100 commits!](/img/posts/new_site_design/100commits.png)
+{% include image.html path="/img/posts/new_site_design/100commits.png" caption="100 commits!" width="400px" %}
 
 <small>200 commits when?</small>
