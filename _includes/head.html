@@ -10,23 +10,37 @@
 <!-- Twitter -->
 {% if page.image %}
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@melonzinc" />
+<meta name="twitter:site" content="@melonzdev" />
 <meta name="twitter:title" content="{{ page.title | escape }} - {{ site.title | escape }}" />
 <meta name="twitter:description" content="{% if page.desc %}{{ page.desc | escape }}{% else %}{{ page.title | escape }}{% endif %}" />
-<meta name="twitter:image" content="https://blog.melonz.nl/img/posts/{{ page.image }}" /> {% else %}
+<meta name="twitter:image" content="https://blog.melonz.nl/img/posts/{{ page.image }}" /> 
+{% else %}
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@melonzdev" />
 <meta name="twitter:title" content="{{ page.title | escape }} - {{ site.title | escape }}" />
-<meta name="twitter:description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ page.title | escape }}{% endif %}" /> {% endif %}
+<meta name="twitter:description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ page.title | escape }}{% endif %}" /> 
+{% endif %}
 <title>{% if page.title %}{{ page.title }} - {% endif %}Melonz's blog</title>
 <meta name="theme-color" content="#367b97">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat%7COpen+Sans%7CProduct Sans" rel="stylesheet">
+<link rel="stylesheet" href="/css/bulma.css">
 <link rel="stylesheet" href="/css/style.css">
-<link rel="stylesheet" href="/css/bootstrap.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script>
-  $(function() {
-    $('[data-toggle="tooltip"]').tooltip()
-  })
+  document.addEventListener('DOMContentLoaded', function () {
+    var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+    if ($navbarBurgers.length > 0) {
+      $navbarBurgers.forEach(function ($el) {
+        $el.addEventListener('click', function () {
+          var target = $el.dataset.target;
+          var $target = document.getElementById(target);
+
+          $el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+        });
+      });
+    }
+  });
 </script>

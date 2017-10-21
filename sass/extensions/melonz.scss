@@ -1,0 +1,119 @@
+/* Melonz custom Bulma things 
+Made by TheRandomMelon @ Melonz
+*/
+
+.is-melonz-orange {
+	background: #E66900 !important;
+	color: whitesmoke;
+}
+
+.is-melonz-blue {
+	background: #378396 !important;
+	color: whitesmoke;
+}
+
+.is-melonz-blue.is-bold {
+	background-image: linear-gradient(141deg, #346D98 0%, #378396 71%, #3DAA93 100%);
+	color: whitesmoke;
+}
+
+.is-melonz-green {
+	background: #3FB793 !important;
+	color: #bbb;
+}
+
+a:hover.button.is-melonz-orange, a:hover.button.is-melonz-blue {
+	color: #ccc;
+}
+
+.title {
+    color: whitesmoke !important;
+}
+
+.subtitle {
+	color: #eee !important;
+}
+
+.fa {
+    vertical-align: middle !important
+}
+
+.icon-small {
+	font-size: 16px !important;
+}
+
+.nocolor {
+	background-color: transparent !important;
+}
+
+a.navbar-item:hover, a.navbar-item.is-active,
+.navbar-link:hover,
+.navbar-link.is-active {
+  background-color: rgba($color: #000000, $alpha: 0.2);
+  color: #fff; 
+}
+
+.navbar-brand .navbar-item {
+	background-color: transparent !important;
+}
+
+.circle {
+	border-radius: 50%;
+}
+
+.is-tmg {
+	background: #35067A !important;
+	color: whitesmoke;
+}
+
+.brand-padding {
+	margin-top: 10rem;
+}
+
+code {
+	border-radius: 5px;
+}
+
+.is-tmg-branding {
+	margin-top: 116px;
+}
+
+.branding-color {
+	background: transparent !important;
+	color: whitesmoke;
+	font-size: 24px;
+}
+
+.branding-color-small {
+	background: transparent !important;
+	color: whitesmoke;
+	font-size: 20px;
+}
+
+.tmg-branding-color {
+	color: whitesmoke;
+	text-shadow: 0px 0px 0px #35067A;
+}
+
+.checkerboard {
+	  background-color: #FEFEFE;
+	  background-image: -webkit-linear-gradient(45deg, #CBCBCB 25%, transparent 25%, transparent 75%, #CBCBCB 75%, #CBCBCB), -webkit-linear-gradient(45deg, #CBCBCB 25%, transparent 25%, transparent 75%, #CBCBCB 75%, #CBCBCB);
+	  background-image: -moz-linear-gradient(45deg, #CBCBCB 25%, transparent 25%, transparent 75%, #CBCBCB 75%, #CBCBCB), -moz-linear-gradient(45deg, #CBCBCB 25%, transparent 25%, transparent 75%, #CBCBCB 75%, #CBCBCB);
+	  background-image: -o-linear-gradient(45deg, #CBCBCB 25%, transparent 25%, transparent 75%, #CBCBCB 75%, #CBCBCB), -o-linear-gradient(45deg, #CBCBCB 25%, transparent 25%, transparent 75%, #CBCBCB 75%, #CBCBCB);
+	  background-image: -ms-linear-gradient(45deg, #CBCBCB 25%, transparent 25%, transparent 75%, #CBCBCB 75%, #CBCBCB), -ms-linear-gradient(45deg, #CBCBCB 25%, transparent 25%, transparent 75%, #CBCBCB 75%, #CBCBCB);
+	  background-image: linear-gradient(45deg, #CBCBCB 25%, transparent 25%, transparent 75%, #CBCBCB 75%, #CBCBCB), linear-gradient(45deg, #CBCBCB 25%, transparent 25%, transparent 75%, #CBCBCB 75%, #CBCBCB);
+	  -webkit-background-size:30px 30px;
+	  -moz-background-size:30px 30px;
+	  background-size:30px 30px;
+	  background-position:0 0, 15px 15px;
+}
+
+.is-logo-box {
+	display: table;
+}
+
+.is-brand-desc {
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 15px;
+}

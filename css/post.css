@@ -2,8 +2,13 @@
   Nicked from my own site, https://dnomaid.co.uk
 */
 
+ul {
+  list-style: initial;
+}
+
 figure.image {
   margin: 16px;
+  margin-left: 0px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   display: inline-block;
   width: 100%;
