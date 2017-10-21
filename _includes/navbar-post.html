@@ -2,7 +2,7 @@
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand product-sans" style="font-size: 22px;">
+  <a class="navbar-brand brand" style="font-size: 22px;">
     <img id="melonz-logo" alt="Logo" src="/img/melonz-logo.png" width="32" class="d-inline-block align-top circle" alt="">
     {{ site.title }}
   </a>
@@ -17,11 +17,6 @@
       <li class="nav-item">
         <a class="nav-link" href="/about/"><i class="fa fa-file-text-o icon-small" aria-hidden="true"></i>About Melonz</a>
       </li>
-      {% if jekyll.environment == "development" %}
-      <li class="nav-item">
-        <a class="nav-link" href="/admin"><i class="fa fa-cog icon-small" aria-hidden="true"></i>Admin</a>
-      </li>
-      {% endif %}
     </ul>
   </div>
 </nav>

@@ -21,11 +21,9 @@ Because:
 # Did I see <b><u>A NEW BANNER???!?</u></b>
 Yes, you did, and I think it looks a lot better than our old one. Here's a comparison image:
 
-![New banner](/img/posts/new_branding/newbanner.png)
-<span class="image-caption">Our all-new Twitter banner. It's much cleaner than the old one.</span>
+{% include image.html path="/img/posts/new_branding/newbanner.png" caption="Our all-new Twitter banner. It's much cleaner than the old one." width="90%" %}
 
-![Old banner](/img/posts/new_branding/oldbanner.jpg)
-<span class="image-caption">This one's extremely cluttered, and just tells you what you can already read in our bio.</span>
+{% include image.html path="/img/posts/new_branding/oldbanner.jpg" caption="This one's extremely cluttered, and just tells you what you can already read in our bio." width="50%" %}
 
 # What's your new links?
 [Twitter](https://twitter.com/MelonzDev)

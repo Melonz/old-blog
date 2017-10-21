@@ -1,0 +1,7 @@
+<!-- Nicked from my own site, https://dnomaid.co.uk -->
+
+<figure class="image"{% if include.width or include.height %} style="{% if include.width %}width: {{ include.width }};{% endif %}{% if include.height %}{{ include.height }};{% endif %}"{% endif %}>
+  <img src="{{ include.path | uri_escape }}" alt="{% if include.caption %}{{ include.caption | escape }}{% else %}{{ include.path }}{% endif %}" style="width: 100%;">
+  {% if include.caption or include.credit %}<figcaption style="width: 100%;"
+>{% if include.caption %}{{ include.caption }}{% endif %}{% if include.credit %}<br>Source: {{ include.credit }}{% endif %}</figcaption>{% endif %}
+</figure>
