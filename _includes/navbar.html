@@ -1,22 +1,28 @@
-<nav class="navbar navbar-toggleable-md fixed-top navbar-inverse bg-primary">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <a class="navbar-brand brand" style="font-size: 22px;">
-    <img alt="Logo" id="melonz-logo" src="/img/melonz-logo.png" width="32" class="d-inline-block align-top circle" alt="">
-    {{ site.title }}
-  </a>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="javascript:void(0);"><i class="fa fa-home icon-small" aria-hidden="true"></i>Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/allposts"><i class="fa fa-file-word-o icon-small" aria-hidden="true"></i>All posts</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/about/"><i class="fa fa-file-text-o icon-small" aria-hidden="true"></i>About Melonz</a>
-      </li>
-    </ul>
+<nav class="navbar is-melonz-blue">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="#">
+      <img class="circle" src="/img/melonz-logo.png" style="box-shadow: 0px 0px 10px #888888;" alt="Melonz" width="28" height="28">
+      <span style="padding-left: 5px; font-weight: bold;">{{ site.title }}</span>
+    </a>
+
+    <div class="navbar-burger burger" data-target="navbarMenu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div id="navbarMenu" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item is-hoverable" href="/">
+        <i class="fa fa-home icon-small" aria-hidden="true"></i>Home
+      </a>
+      <a class="navbar-item is-hoverable" href="/allposts">
+        <i class="fa fa-file-word-o icon-small" aria-hidden="true"></i>All posts
+      </a>
+      <a class="navbar-item is-hoverable" href="/about/">
+        <i class="fa fa-file-text-o icon-small" aria-hidden="true"></i>About Melonz
+      </a>
+    </div>
   </div>
 </nav>
