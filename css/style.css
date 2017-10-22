@@ -1,9 +1,22 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif;
+}
+
+ul, li {
+  list-style: none;
+}
+
+li {
+  position: relative;
+  left: 10px;
+}
+
+li::before {
+  content: '- ';
 }
 
 .brand {
@@ -689,8 +702,8 @@ pre {
 }
 
 .circle {
-	border-radius: 50%;
-	box-shadow: 0px 0px 5px #111;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px #111;
 }
 
 h1 {
