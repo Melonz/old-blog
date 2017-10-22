@@ -6,17 +6,13 @@ h1, h2, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif;
 }
 
-]main-stuff ul, #main-stuff li {
-  list-style: none;
+#main-stuff ul {
+  list-style: square;
 }
 
 #main-stuff li {
   position: relative;
-  left: 10px;
-}
-
-#main-stuff li::before {
-  content: '- ';
+  left: 25px;
 }
 
 .brand {
