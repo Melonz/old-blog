@@ -6,16 +6,16 @@ h1, h2, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif;
 }
 
-ul, li {
+]main-stuff ul, #main-stuff li {
   list-style: none;
 }
 
-li {
+#main-stuff li {
   position: relative;
   left: 10px;
 }
 
-li::before {
+#main-stuff li::before {
   content: '- ';
 }
 
