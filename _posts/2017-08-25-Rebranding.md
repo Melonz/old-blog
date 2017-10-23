@@ -1,5 +1,5 @@
 ---
-title: We've finally rebranded! (No more Melonz, "Inc")
+title: We've finally rebranded! (No more Melonz, 'Inc')
 layout: post
 category: Melonz
 image: new_branding/square.png
@@ -9,7 +9,7 @@ comments: true
 id: new_branding
 author: TheRandomMelon
 author-link: https://twitter.com/RandomMelonYT
-desc: We've stopped wrongly using "Melonz, Inc." and we've switched to "Melonz Development". Learn more.
+desc: We've stopped wrongly using 'Melonz Inc.' and we've switched to 'Melonz Development'. Learn more.
 ---
 
 # Why'd you do this?
