@@ -18,7 +18,7 @@ twitter: https://twitter.com/melonzdev
 twitterhandle: '@MelonzDev'
 facebook: https://www.facebook.com/melonzinc
 github: https://github.com/Melonz
-permalink: /:year/:title.html
+permalink: /:year/:month/:title/
 
 markdown: kramdown
 kramdown:
