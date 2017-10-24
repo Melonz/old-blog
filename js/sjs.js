@@ -368,14 +368,18 @@ function compile (data) {
 
   function search (query) {
     if (isValidQuery(query)) {
-      render(repository.search(query))
+      document.getElementById('loader').classList.add('is-loading');
+      render(repository.search(query));
     }
   }
 
   function render (results) {
-    var len = results.length
+    var len = results.length;
+    setTimeout(function(){
+      document.getElementById('loader').classList.remove('is-loading');
+    }, 500);
     if (len === 0) {
-      return appendToResultsContainer(options.noResultsText)
+      options.resultsContainer.innerHTML = options.noResultsText;
     }
     for (var i = 0; i < len; i++) {
       appendToResultsContainer(templater.compile(results[i]))

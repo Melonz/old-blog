@@ -10,10 +10,17 @@ desc: Search for posts
 <div id="main-stuff">
 	<h1 class="title is-2">Search</h1>
 
-	<input type="text" id="search-input" class="input" placeholder="Query">
-	<ul id="results">
+	<div style="max-width: 50em;">
+
+	<div id="loader" class="control">
+		<input type="text" id="search-input" class="input is-loading" placeholder="Query">
+	</div>
+
+	<ul id="results" style="min-height: 300px;">
 		<h3 id="search-placeholder">Results will appear here</h3>
 	</ul>
+</div>
+
 
 	<script src="/js/sjs.js"></script>
 	<script>
