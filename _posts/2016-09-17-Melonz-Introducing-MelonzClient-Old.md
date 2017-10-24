@@ -1,7 +1,7 @@
 ---
 title: Introducing MelonzClient
 layout: post
-category: Melonz
+category: Old Posts
 badge-text: OLD
 image: intro_melonzclient/login-banner.png
 keywords: melonzclient, old, tumblr, post

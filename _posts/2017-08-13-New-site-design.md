@@ -1,7 +1,7 @@
 ---
 title: We've redesigned Melonz! (finally)
 layout: post
-category: Melonz
+category: Changelogs
 image: new_site_design/square.png
 image-banner: new_site_design/banner.png
 keywords: site, design, web design, bulma
@@ -10,7 +10,7 @@ id: new_site_design
 author: TheRandomMelon
 author-link: https://twitter.com/RandomMelonYT
 desc: We've went from a terrible MDL page to a stunning Bulma page. Learn more here.
----
+---it's
 
 # What? What the hell are you talking about?
 Oh, right.

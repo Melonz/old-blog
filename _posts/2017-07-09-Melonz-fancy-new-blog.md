@@ -1,7 +1,7 @@
 ---
 title: We've got a fancy new blog!
 layout: post
-category: Melonz
+category: Old Posts
 image: fancy_new_blog/site.png
 keywords: fancy new blog, meme
 comments: true

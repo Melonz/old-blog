@@ -1,7 +1,7 @@
 ---
 title: Welcome to the Melonz blog!
 layout: post
-category: Melonz
+category: Old Posts
 badge-text: ANCIENT
 image: old_welcome/1.png
 comments: true

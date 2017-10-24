@@ -28,7 +28,7 @@ Statistics say that a typical Internet user will only wait [up to 3 seconds](htt
 For a small startup like this, Net Neutrality <mark>is crucial to us</mark>. You can read more about it at [battleforthenet.com](https://battleforthenet.com).
 
 # Well, how can I help you guys?
-First of all, it's not just us who's going to be affected. <mark>Every single Internet user will be affected.</mark> 
+First of all, it's not just us who's going to be affected. <mark>Every single Internet user will be affected.</mark>
 
 
 Anyway, you can send a message to the FCC and your local Congressman (if you live in the US). You can send it easily and quickly by using [Battle for the Net's site](https://www.battleforthenet.com).

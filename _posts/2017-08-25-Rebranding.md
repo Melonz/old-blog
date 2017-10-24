@@ -1,7 +1,7 @@
 ---
 title: We've finally rebranded! (No more Melonz, 'Inc')
 layout: post
-category: Melonz
+category: Changelogs
 image: new_branding/square.png
 image-banner: new_branding/banner.png
 keywords: melonz, rebranding, melonz development, twitter, gab, social media, branding

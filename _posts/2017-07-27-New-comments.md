@@ -1,8 +1,7 @@
 ---
 title: We finally have comments!
 layout: post
-category: Tech
-badge-text: NEW
+category: Changelog
 image: new_comments/comments-square.png
 image-banner: new_comments/comments.png
 keywords: comments, disqus, jekyll, how-to, tech
