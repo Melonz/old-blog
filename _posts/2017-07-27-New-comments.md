@@ -1,7 +1,7 @@
 ---
 title: We finally have comments!
 layout: post
-category: Changelog
+category: Changelogs
 image: new_comments/comments-square.png
 image-banner: new_comments/comments.png
 keywords: comments, disqus, jekyll, how-to, tech
