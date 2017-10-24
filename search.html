@@ -10,15 +10,15 @@ desc: Search for posts
 <div id="main-stuff">
 	<h1 class="title is-2">Search</h1>
 
-	<input type="text" id="search" class="input" placeholder="Query">
+	<input type="text" id="search-input" class="input" placeholder="Query">
 	<ul id="results">
-		<h3>Results will appear here</h3>
+		<h3 id="search-placeholder">Results will appear here</h3>
 	</ul>
 
 	<script src="/js/sjs.js"></script>
 	<script>
 		window.simpleJekyllSearch = new SimpleJekyllSearch({
-			searchInput: document.getElementById('search'),
+			searchInput: document.getElementById('search-input'),
 			resultsContainer: document.getElementById('results'),
 			json: '/js/posts.json',
 			searchResultTemplate: '<li><h3><a href="{url}">{title}</a></h3></li>',
