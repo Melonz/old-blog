@@ -19,6 +19,34 @@ h1, h2, h3, h4, h5 {
   font-family: 'Product Sans', 'Montserrat', sans-serif;
 }
 
+.input {
+  border-color:  #378396;
+  margin-bottom: 8px;
+}
+
+.input:hover, .input:focus {
+  border-color:  whitesmoke;
+}
+
+/*input[type='text'] {
+  width: 80%;
+  padding: 4px;
+  font-size: 1.2em;
+  color: whitesmoke;
+  background-color: #378396;
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+}
+
+input[type='text']::placeholder {
+  color: whitesmoke;
+}
+
+input[type='text']:focus {
+  border: 1px solid silver;
+  outline: none;
+}*/
+
 #main-stuff {
   padding: 15px;
 }

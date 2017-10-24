@@ -10,17 +10,19 @@ desc: Search for posts
 <div id="main-stuff">
 	<h1 class="title is-2">Search</h1>
 
-	<input type="text" id="search" placeholder="Query">
-	<ul id="results"></ul>
+	<input type="text" id="search" class="input" placeholder="Query">
+	<ul id="results">
+		<h3>Results will appear here</h3>
+	</ul>
 
 	<script src="/js/sjs.js"></script>
 	<script>
 		window.simpleJekyllSearch = new SimpleJekyllSearch({
 			searchInput: document.getElementById('search'),
 			resultsContainer: document.getElementById('results'),
-			json: '/js/posts.json'
-			// searchResultTemplate: '<li><h4>{date} in {category}{author}</h4><h2><a href="{url}">{title}</a></h2></li>',
-			// noResultsText: '<h4 style="padding-bottom: 16px;">No results</h4>',
+			json: '/js/posts.json',
+			searchResultTemplate: '<li><h3><a href="{url}">{title}</a></h3></li>',
+			noResultsText: '<h3>Couldn\'t find that, sorry</h3>'
 			// limit: 5,
 			// fuzzy: false
 		})
