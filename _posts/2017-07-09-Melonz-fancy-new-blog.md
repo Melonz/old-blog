@@ -27,6 +27,8 @@ Yup! [Right here.](/feed.xml) Subscribe today, if people still use RSS feeds...
 Of course! We'll update you as much as possible on all the happenings at Melonz.
 
 ### I want to comment! Where's the comments section?
-That's coming soon. For now, send us a tweet ([{{ site.twitterhandle }}]({{ site.twitter }})) to tell us your thoughts!
+There's now a comments section. [Click here to go to it.](#disqus_thread)
+
+~~That's coming soon. For now, send us a tweet ([{{ site.twitterhandle }}]({{ site.twitter }})) to tell us your thoughts!~~
 
 Alright, that's all we have for now! Subscribe to the [RSS feed](/feed.xml), and [follow us on Twitter](https://twitter.com/melonzinc) if you want.
